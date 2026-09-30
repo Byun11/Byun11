@@ -1,0 +1,41 @@
+name: Build README
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # every six hours; the content changes on the order of days
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # build_readme.py uses only the standard library, so there is nothing
+      # to install.
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python build_readme.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "no change"
+          else
+            git add README.md
+            git commit -m "Update README [skip ci]"
+            git push
+          fi

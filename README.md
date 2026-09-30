@@ -1,45 +1,33 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=70A5FD&center=true&vCenter=true&width=435&lines=AI+%2F+ML+Developer;Building+Intelligent+Systems;Always+Learning%2C+Always+Building)](https://git.io/typing-svg)
+<a href="https://byun11.github.io/"><img src="assets/banner.png" alt="Jaeyeon Byun — AI Researcher" width="100%" /></a>
 
-# Hi there, I'm Jaeyeon Byun 👋
+Student researcher at UST–KISTI. I build AI systems that read documents and act on the web — agents that stay grounded in a source instead of guessing, and that ask when the document does not answer.
 
-[![GitHub followers](https://img.shields.io/github/followers/Byun11?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917)](https://github.com/Byun11)
-[![GitHub User's stars](https://img.shields.io/github/stars/Byun11?style=for-the-badge&logo=github&color=0891b2&labelColor=1c1917)](https://github.com/Byun11)
-[![Profile Views](https://komarev.com/ghpvc/?username=Byun11&style=for-the-badge&color=blueviolet)](https://github.com/Byun11)
-[![Straude Scorecard](https://straude.com/api/embed/byun11/svg)](https://straude.com/u/byun11)
+[Website](https://byun11.github.io/) · [LinkedIn](https://www.linkedin.com/in/jaeyeon-byun-046814326)
 
 ---
 
-## 🛠️ Tech Stack
+### Selected work
 
-[![AI/ML](https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](#)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](#)
+**[KONI-Forms](https://github.com/Byun11/KONI-Forms)** — a Chrome extension that fills web forms from your own documents, and asks you when the document does not settle a value instead of inventing one. TypeScript, MV3, Apache-2.0.
 
----
+**[Dorea](https://github.com/Byun11/Dorea-pdf-ai)** — layout-aware PDF analysis. Select the region of the page that matters and ask about it, so the answer is tied to that part of the document.
 
-## 📈 Contribution Graph
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Byun11&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+**[KISTI-MCP](https://github.com/ansua79/kisti-mcp)** — an MCP server connecting LLM clients to KISTI ScienceON, NTIS and DataON. *KISTI AI Platform Team.*
 
 ---
 
-## 📫 Connect With Me
+### Latest releases
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Byun11)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaeyeon-byun-046814326)
+<!-- releases starts -->
+- [KONI-Forms v1.0.0](https://github.com/Byun11/KONI-Forms/releases/tag/v1.0.0) — 7 days ago
+- [kisti-mcp v0.3.32](https://github.com/ansua79/kisti-mcp/releases/tag/v0.3.32) — 3 months ago
+<!-- releases ends -->
 
----
+### Recent activity
 
-## 🎯 Current Focus
-
-```
-🤖 Day job       AI / ML Development
-🔭 Side project  AI-Powered PDF & Browser Automation
-💬 Ask me about  AI Agents, LLMs, Automation
-⚡ Fun fact      I love solving problems on Baekjoon
-```
-
----
-
-
-[![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling)](https://github.com/Byun11)
+<!-- activity starts -->
+- [Byun11.github.io](https://github.com/Byun11/Byun11.github.io) · today
+- [KONI-Forms](https://github.com/Byun11/KONI-Forms) · 7 days ago
+- [kisti-mcp](https://github.com/ansua79/kisti-mcp) — 한국과학기술정보연구원(KISTI)에서 서비스하는 ScienceON 등 다양한 플랫폼의 OpenAPI를 활용하는 MCP 서버 · 3 months ago
+- [traithon-guardian](https://github.com/Byun11/traithon-guardian) · 9 months ago
+<!-- activity ends -->
